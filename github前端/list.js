@@ -55,7 +55,7 @@ class LinkedList {
         }
         this.size--;
     }
-    //查找指定元素的索引；
+    
     indexOf(element) {
         let current = this.head;
 
