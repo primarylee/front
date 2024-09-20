@@ -79,21 +79,3 @@ class LinkedList {
         return current;
     }
 }
-
-let ll = new LinkedList();
-ll.append(1);
-ll.append(2);
-//ll.append(3);
-//ll.append(4);
-ll.appendAt(2, 3);
-ll.appendAt(3, 4);
-
-// ll.removeAt(1);
-// ll.appendAt(3, 2);
-console.log(ll.indexOf(1));
-console.log(ll.indexOf(2));
-console.log(ll.indexOf(3));
-console.log(ll.indexOf(4));
-console.dir(ll, {
-    depth: 100
-});
