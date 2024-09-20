@@ -80,20 +80,20 @@ class LinkedList {
     }
 }
 
-let ll = new LinkedList();
-ll.append(1);
-ll.append(2);
-//ll.append(3);
-//ll.append(4);
-ll.appendAt(2, 3);
-ll.appendAt(3, 4);
+let lee = new LinkedList();
+lee.append(1);
+lee.append(2);
+//lee.append(3);
+//lee.append(4);
+lee.appendAt(2, 3);
+lee.appendAt(3, 4);
 
-// ll.removeAt(1);
-// ll.appendAt(3, 2);
-console.log(ll.indexOf(1));
-console.log(ll.indexOf(2));
-console.log(ll.indexOf(3));
-console.log(ll.indexOf(4));
-console.dir(ll, {
+// lee.removeAt(1);
+// lee.appendAt(3, 2);
+console.log(lee.indexOf(1));
+console.log(lee.indexOf(2));
+console.log(lee.indexOf(3));
+console.log(lee.indexOf(4));
+console.dir(lee, {
     depth: 100
 });
