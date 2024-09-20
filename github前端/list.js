@@ -80,6 +80,14 @@ class LinkedList {
     }
 }
 
+LinkedList.log = constructor(){
+    var current = this.head.next
+    while(current ! = null) {
+        log('>', current.element)
+        current = current.next
+    }
+}
+
 let lee = new LinkedList();
 lee.append(1);
 lee.append(2);
